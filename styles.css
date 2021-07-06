@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Inconsolata', monospace;
+    
 }
 
 #navbar {
@@ -52,8 +53,9 @@
     background-color: black;
     text-align: center;
     color: white;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 50px;
+    height: 20vh;
     
 }
 
@@ -64,10 +66,11 @@
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: black;
+    height: 80vh;
 }
 
 .project-tile {
-    height: 320px;
+    height: 360px;
     width:300px;
     background-color: purple;
     position: relative;
@@ -103,6 +106,67 @@
 .project-img {
     width: 30%;
     height: auto;
+}
+
+#container-contact {
+    background-color: black;
+    height: 70vh;
+}
+#contact {
+    padding-top: 20px;
+    background-color: black;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+#description {
+    color: white;
+}
+
+#form {
+    margin: 20px;
+}
+
+input {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    font-family: inherit;
+    padding-left: 10px;
+    padding-top: 10px;
+    outline: none;
+}
+
+#links {
+    height: 10vh;
+    background-color: black;
+}
+
+#links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#links ul li {
+    color: white;
+    display:inline-block;
+    width: 100px;
+}
+
+#links ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 
