@@ -9,6 +9,7 @@
    background-color: purple;
    position: fixed;
    width: 100%;
+   z-index: 999;
 }
 
 #navbar ul {
@@ -43,11 +44,11 @@
     padding-top: 250px;
 }
 
-span {
+.inline {
     color: purple;
 }
  
-#project-title {
+.title {
     background-color: black;
     text-align: center;
     color: white;
@@ -99,7 +100,7 @@ span {
     padding-bottom: 5px;
 }
 
-img {
+.project-img {
     width: 30%;
     height: auto;
 }
