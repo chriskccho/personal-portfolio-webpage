@@ -169,4 +169,10 @@ textarea {
     color: white;
 }
 
+@media all and (max-width: 480px) {
+    #navbar {
+        display: none;
+    }
+}
+
 
